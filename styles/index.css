@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    font-family: "Segoe UI";
+    background-color: #FAFAFA;
+}
+
+p,
+a {
+    font-size: 14px;
+}
+a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0px;
+    margin: auto;
+    width: 935px;
+}
+
+.card-container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-login {
+    margin: 12px 0px 0px;
+    width: 348px;
+    justify-content: center;
+}
+
+.card-login {
+    width: 100%;
+    margin: auto 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+}
+#login {
+    height: 319px;
+}
+
+#login a {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+#logoName {
+    height: 51px;
+    width: 175px;
+    margin: 22px auto 12px;
+    align-items: center;
+}
+#photoPerfil {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 26px;
+    width: 102px;
+    border-radius: 50% 50%;
+}
+
+#account {
+    margin-top: 10px;
+}
+.get-app h2 {
+    font-size: 18px;
+    text-align: center;
+}
+.get-app div {
+    display: flex;
+    justify-content: center;
+}
+.get-app div img {
+    margin: 0px 5px 0px 5px;
+    width: 136px;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #0095f6;
+    border: 1px solid #0095f6;
+    border-radius: 2px;
+    padding: 5px 25px;
+    color: white;
+    font-weight: bold;
+}
+.btn:active {
+    background-color: #0094f6cc;
+}
+.btn:focus {
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container,
+    .container-login {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .card-container {
+        display: block;
+    }
+
+    .card-login,
+    .card-options {
+        border: none;
+    }
+}

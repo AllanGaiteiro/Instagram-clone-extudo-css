@@ -1,0 +1,47 @@
+#phone-instagram {
+    background-image: url("../img/phone1.png");
+    width: 370px;
+    height: 584px;
+    margin: 0px 30px 0px 9px;
+    animation: changeFone 25s infinite linear;
+    transition: 1s;
+}
+@keyframes changeFone {
+    0% {
+        background-image: url("../img/phone1.png");
+    }
+    15% {
+        background-image: url("../img/phone1.png");
+    }
+    25% {
+        background-image: url("../img/phone2.png");
+    }
+    35% {
+        background-image: url("../img/phone2.png");
+    }
+    45% {
+        background-image: url("../img/phone3.png");
+    }
+    55% {
+        background-image: url("../img/phone3.png");
+    }
+    65% {
+        background-image: url("../img/phone4.png");
+    }
+
+    75% {
+        background-image: url("../img/phone4.png");
+    }
+    85% {
+        background-image: url("../img/phone5.png");
+    }
+    85% {
+        background-image: url("../img/phone1.png");
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #phone-instagram {
+        display: none;
+    }
+}
